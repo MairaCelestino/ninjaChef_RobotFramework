@@ -8,7 +8,7 @@ Resource        kws.robot
 *** Keywords ***
 # Hooks
 Open Session
-    Open Application        http://localhost:4723/wd/hub
+    Open Applicatio        http://localhost:4723/wd/hub
     ...                     automationName=UiAutomator2
     ...                     platformName=Android
     ...                     deviceName=Emulator
