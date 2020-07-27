@@ -26,4 +26,4 @@ Get Api Token
     Status Should Be  200             ${resp}
 
     ${token}         Convert To String         ${resp.json()['_id']}
-    [retur]          ${token}
+    [return]          ${token}
